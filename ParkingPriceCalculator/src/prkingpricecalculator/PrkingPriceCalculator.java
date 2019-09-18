@@ -21,6 +21,6 @@ public class PrkingPriceCalculator {
         System.out.println("");
         System.out.printf("%-15s: %.0f\n", "Parking in minutes", parkMin);
         System.out.printf("%-15s: %.0f\n", "Parking in hours", parkHour);
-        System.out.printf("%-15s: %.2f\n", "Parking Price", parkPrice);
+        System.out.printf("%-15s: $%.2f\n", "Parking Price", parkPrice);
     }
 }
